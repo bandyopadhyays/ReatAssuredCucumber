@@ -2,18 +2,19 @@ package cucumberApiFramework.POJO;
 
 public class Location {
 
-	private int lat;
-	private int lang;
-	public int getLat() {
+	private double lat;
+	private double lang;
+	
+	public double getLat() {
 		return lat;
 	}
-	public void setLat(int lat) {
+	public void setLat(double lat) {
 		this.lat = lat;
 	}
-	public int getLang() {
+	public double getLang() {
 		return lang;
 	}
-	public void setLang(int lang) {
+	public void setLang(double lang) {
 		this.lang = lang;
 	}
 	

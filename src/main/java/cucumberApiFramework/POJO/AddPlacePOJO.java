@@ -12,6 +12,7 @@ public class AddPlacePOJO {
 	private ArrayList<String> types;
 	private String website;
 	private String language;
+	
 	public Location getLocation() {
 		return location;
 	}
